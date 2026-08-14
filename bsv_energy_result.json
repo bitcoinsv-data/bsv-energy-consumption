@@ -1,0 +1,58 @@
+{
+  "generated_utc": "2026-08-14T14:37:54+00:00",
+  "method": "difficulty-derived hashrate x calibrated fleet efficiency x PUE",
+  "calibration": {
+    "anchor_twh_btc": 175.0,
+    "anchor_source": "2025 best-guess (CCAF/CBECI)",
+    "implied_fleet_efficiency_j_per_th": 20.11,
+    "pue": 1.1
+  },
+  "bsv": {
+    "height": 962289,
+    "difficulty": 30869875613.23989,
+    "hashrate_ph_s": 220.98,
+    "sample_blocks": 1008,
+    "sample_days": 6.9,
+    "tx_per_day": 1149070,
+    "mb_per_day": 918.6,
+    "avg_tx_per_block": 7862.1,
+    "avg_block_mb": 6.285
+  },
+  "btc": {
+    "hashrate_eh_s": 903.0,
+    "tx_per_day": 664026,
+    "mb_per_day": 233.1
+  },
+  "results": {
+    "calibrated": {
+      "efficiency_j_per_th": 20.11,
+      "bsv_twh_yr": 0.042827,
+      "bsv_mwh_yr": 42827.0,
+      "bsv_wh_per_tx": 102.11,
+      "btc_twh_yr": 175.0,
+      "btc_kwh_per_tx": 722.0,
+      "bsv_kwh_per_mb": 127.7,
+      "btc_kwh_per_mb": 2057109.0
+    },
+    "efficient_fleet": {
+      "efficiency_j_per_th": 13.0,
+      "bsv_twh_yr": 0.027681,
+      "bsv_mwh_yr": 27681.1,
+      "bsv_wh_per_tx": 66.0,
+      "btc_twh_yr": 113.11,
+      "btc_kwh_per_tx": 466.7,
+      "bsv_kwh_per_mb": 82.6,
+      "btc_kwh_per_mb": 1329607.1
+    },
+    "legacy_fleet": {
+      "efficiency_j_per_th": 98.0,
+      "bsv_twh_yr": 0.208673,
+      "bsv_mwh_yr": 208673.0,
+      "bsv_wh_per_tx": 497.54,
+      "btc_twh_yr": 852.68,
+      "btc_kwh_per_tx": 3518.1,
+      "bsv_kwh_per_mb": 622.4,
+      "btc_kwh_per_mb": 10023192.3
+    }
+  }
+}
